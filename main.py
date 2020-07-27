@@ -1,6 +1,6 @@
 from PIL import Image
 from variables import *
-
+width=10
 def letter(y,c):
     if y is "H":
         paper.paste(H,(c,10),H)
